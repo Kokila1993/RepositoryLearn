@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="92879" started-at="2023-08-15T15:10:16Z" finished-at="2023-08-15T15:11:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="92879" started-at="2023-08-15T15:10:16Z" finished-at="2023-08-15T15:11:49Z">
+      <class name="org.base.ParameterTesting">
+        <test-method status="PASS" signature="tc01()[pri:0, instance:org.base.ParameterTesting@2d554825]" name="tc01" duration-ms="92634" started-at="2023-08-15T20:40:16Z" finished-at="2023-08-15T20:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="tc02(java.lang.String, java.lang.String)[pri:0, instance:org.base.ParameterTesting@2d554825]" name="tc02" duration-ms="216" started-at="2023-08-15T20:41:49Z" finished-at="2023-08-15T20:41:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koki.nataraj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sam@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+      </class> <!-- org.base.ParameterTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
