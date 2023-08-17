@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="pass" value="sam@2020"/>
-  <parameter name="user" value="koki.nataraj@gmail.com"/>
   <test name="Test">
-    <parameter name="pass" value="sam@2020"/>
-    <parameter name="user" value="koki.nataraj@gmail.com"/>
     <classes>
-      <class name="org.base.ParameterTesting"/>
+      <class name="org.base.Groupings"/>
+      <class name="org.base.ProviderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->
