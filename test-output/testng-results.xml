@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
   <suite started-at="2023-09-14T19:39:57 IST" name="Suite" finished-at="2023-09-14T19:40:04 IST" duration-ms="6340">
+=======
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1068" started-at="2023-08-16T12:11:39Z" finished-at="2023-08-16T12:11:40Z">
+>>>>>>> 6b7062025008cde1bea02ccc4120dfd2990b3258
     <groups>
+      <group name="Sanity">
+        <method signature="Groupings.tco1()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco1" class="org.base.Groupings"/>
+        <method signature="Groupings.tco4()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco4" class="org.base.Groupings"/>
+        <method signature="Groupings.tco5()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco5" class="org.base.Groupings"/>
+      </group> <!-- Sanity -->
+      <group name="Regg">
+        <method signature="Groupings.tco3()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco3" class="org.base.Groupings"/>
+        <method signature="Groupings.tco6()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco6" class="org.base.Groupings"/>
+      </group> <!-- Regg -->
+      <group name="Smoke">
+        <method signature="Groupings.tco2()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco2" class="org.base.Groupings"/>
+        <method signature="Groupings.tco7()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco7" class="org.base.Groupings"/>
+      </group> <!-- Smoke -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2023-09-14T19:39:57 IST" name="Test" finished-at="2023-09-14T19:40:04 IST" duration-ms="6340">
       <class name="org.base.ParameterTesting">
         <test-method signature="tc01()[pri:0, instance:org.base.ParameterTesting@305ffe9e]" started-at="2023-09-14T19:39:57 IST" name="tc01" finished-at="2023-09-14T19:40:03 IST" duration-ms="6072" status="PASS">
@@ -12,6 +33,11 @@
           </reporter-output>
         </test-method> <!-- tc01 -->
         <test-method signature="tc02(java.lang.String,java.lang.String)[pri:0, instance:org.base.ParameterTesting@305ffe9e]" started-at="2023-09-14T19:40:03 IST" name="tc02" finished-at="2023-09-14T19:40:04 IST" duration-ms="207" status="PASS">
+=======
+    <test name="Test" duration-ms="1068" started-at="2023-08-16T12:11:39Z" finished-at="2023-08-16T12:11:40Z">
+      <class name="org.base.ProviderTest">
+        <test-method status="PASS" signature="tc01(java.lang.String, java.lang.String)[pri:0, instance:org.base.ProviderTest@6be46e8f]" name="tc01" duration-ms="1" started-at="2023-08-16T17:41:40Z" data-provider="Login Details" finished-at="2023-08-16T17:41:40Z">
+>>>>>>> 6b7062025008cde1bea02ccc4120dfd2990b3258
           <params>
             <param index="0">
               <value>
@@ -20,14 +46,104 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[sam@2020]]>
+                <![CDATA[2345tg]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc02 -->
-      </class> <!-- org.base.ParameterTesting -->
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="tc01(java.lang.String, java.lang.String)[pri:0, instance:org.base.ProviderTest@6be46e8f]" name="tc01" duration-ms="1" started-at="2023-08-16T17:41:40Z" data-provider="Login Details" finished-at="2023-08-16T17:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kokilabit@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[09876rtyghb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="tc01(java.lang.String, java.lang.String)[pri:0, instance:org.base.ProviderTest@6be46e8f]" name="tc01" duration-ms="1" started-at="2023-08-16T17:41:40Z" data-provider="Login Details" finished-at="2023-08-16T17:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koki.kanaka@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="tc01(java.lang.String, java.lang.String)[pri:0, instance:org.base.ProviderTest@6be46e8f]" name="tc01" duration-ms="1" started-at="2023-08-16T17:41:40Z" data-provider="Login Details" finished-at="2023-08-16T17:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koki.nataraj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="tc01(java.lang.String, java.lang.String)[pri:0, instance:org.base.ProviderTest@6be46e8f]" name="tc01" duration-ms="1" started-at="2023-08-16T17:41:40Z" data-provider="Login Details" finished-at="2023-08-16T17:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam@2020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+      </class> <!-- org.base.ProviderTest -->
+      <class name="org.base.Groupings">
+        <test-method status="PASS" signature="tco1()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco1" duration-ms="11" started-at="2023-08-16T17:41:39Z" finished-at="2023-08-16T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tco1 -->
+        <test-method status="PASS" signature="tco2()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco2" duration-ms="0" started-at="2023-08-16T17:41:39Z" finished-at="2023-08-16T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tco2 -->
+        <test-method status="PASS" signature="tco3()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco3" duration-ms="0" started-at="2023-08-16T17:41:39Z" finished-at="2023-08-16T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tco3 -->
+        <test-method status="PASS" signature="tco4()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco4" duration-ms="1" started-at="2023-08-16T17:41:39Z" finished-at="2023-08-16T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tco4 -->
+        <test-method status="PASS" signature="tco5()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco5" duration-ms="0" started-at="2023-08-16T17:41:39Z" finished-at="2023-08-16T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tco5 -->
+        <test-method status="PASS" signature="tco6()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco6" duration-ms="1" started-at="2023-08-16T17:41:39Z" finished-at="2023-08-16T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tco6 -->
+        <test-method status="PASS" signature="tco7()[pri:0, instance:org.base.Groupings@77b52d12]" name="tco7" duration-ms="1" started-at="2023-08-16T17:41:39Z" finished-at="2023-08-16T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tco7 -->
+      </class> <!-- org.base.Groupings -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
